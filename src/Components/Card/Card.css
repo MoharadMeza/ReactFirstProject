@@ -1,0 +1,12 @@
+.card_center{
+    background-color:#f2f2f2;
+  }
+  .card_center_image_left{
+    width:100%;
+    object-fit: cover;
+  }
+  .card_center_image_right{
+    width: 100%;
+    height: 597px;
+    object-fit: cover;
+  }
