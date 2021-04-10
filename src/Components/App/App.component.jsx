@@ -1,7 +1,7 @@
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Gallery from '../Gallery/Gallery.component'
 import Card from '../Card/Card.component'
-const App=() => {
+const App_center=() => {
   return (
     <>
       <Gallery/>
@@ -10,4 +10,4 @@ const App=() => {
   );
 };
 
-export default App;
+export default App_center;
