@@ -9,5 +9,6 @@ const App = ()=>{
     <CompanySlogan/>
     </>
     return app;
+    
 }
 export default App;
