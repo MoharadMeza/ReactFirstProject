@@ -1,0 +1,32 @@
+.bg-color-about-Brand{
+    background-color: #7f44c0;
+ }
+ .Color-Description-about-Brand{
+    color: rgba(255, 255, 255, 0.945);
+ }
+.btn-about-Brand{
+    background-color: white;
+    border-radius:0px ;
+    height: 12px;
+}
+@media (min-width: 575.98px) and (max-width: 1199.98px){ 
+    .btn-about-Brand{
+        width: 50%;
+    }
+ }
+ @media (min-width: 1200px){ 
+    .btn-about-Brand{
+        width: 40%;
+    }
+ }
+
+.readmore-about-Brand{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.945);
+    white-space: nowrap;
+}
+
+.readmore-about-Brand:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.945); ;
+}
