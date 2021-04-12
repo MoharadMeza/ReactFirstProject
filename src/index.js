@@ -4,13 +4,16 @@ import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./Style.css";
+import App_center from './Components/App_center/App.component'
 import App from './Components/App_center/App.component'
-import App_center from './Components/App_center/App_center.component'
+import App3 from '../src/app3/app3.component';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <App_center />
-
+    <App_center/>
+    <App3/>
+ 
   </React.StrictMode>,
   document.getElementById("root")
 );
