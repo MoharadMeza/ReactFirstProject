@@ -1,6 +1,5 @@
-import './CompanySloganCss/CS.css'
-import img1 from '../../images/Justin_Autograph.png'
-import img2 from '../../images/pexelsphoto818650.jpeg'
+import './CS.css'
+import Images from '../Images/Images.component'
 const CompanySlogan = () => {
     const CS =
         <div className="company-slogan">
@@ -43,12 +42,8 @@ const CompanySlogan = () => {
                     </div>
                     <div className="col-12 col-md-6">
                         <div className="row justify-content-center">
-                            <div className="images">
-                                <img src={img1} alt="signature" className="w-100 load-image mb-5"></img>
-                            </div>
-                            <div className="images">
-                                <img src={img2} alt="coffe" className="coffee-img load-image mt-5"></img>
-                            </div>
+                            <Images/>
+                            <Images/>
                         </div>
                     </div>
                 </div>

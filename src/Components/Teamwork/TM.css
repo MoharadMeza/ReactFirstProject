@@ -1,0 +1,9 @@
+.teamwork{
+    background-color: #f2f2f2;
+}
+
+@media only screen and (min-width:760px){
+    .teamwork{
+        margin-top: -50px;
+    }
+}

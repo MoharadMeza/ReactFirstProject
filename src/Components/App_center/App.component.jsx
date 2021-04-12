@@ -1,13 +1,14 @@
+import AgancyBrand from '../AgancyBrand/AgancyBrand.component'
+import Teamwork from '../Teamwork/Teamwork.component'
+import CompanySlogan from '../CompanySlogan/CompanySlogan.component'
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Gallery from '../Gallery/Gallery.component'
-import Card from '../Card/Card.component'
-const App_center=() => {
-  return (
-    <>
-      <Gallery/>
-      <Card/>
+const App = ()=>{
+    const app = <>
+    <AgancyBrand/>
+    <Teamwork image='pexelsphoto1543895.jpeg'/>
+    <CompanySlogan/>
     </>
-  );
-};
-
-export default App_center;
+    return app;
+    
+}
+export default App;
