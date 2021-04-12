@@ -4,7 +4,8 @@ import ReadMoreAU from '../ReadMoreAboutUs/ReadMoreAU.component'
 const Teamwork = (props) => {
     const TM =
         <div className="teamwork">
-            <Images />
+            {/* <Images /> */}
+            
             <div className="container">
                 <div className="row px-3 py-5 justify-content-md-between justify-content-center">
                     <ReadMoreAU/>

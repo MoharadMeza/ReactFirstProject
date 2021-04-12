@@ -42,8 +42,8 @@ const CompanySlogan = () => {
                     </div>
                     <div className="col-12 col-md-6">
                         <div className="row justify-content-center">
-                            <Images/>
-                            <Images/>
+                            {/* <Images/>
+                            <Images/> */}
                         </div>
                     </div>
                 </div>
