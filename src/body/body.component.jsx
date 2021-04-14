@@ -1,12 +1,12 @@
 import '../body/bodystyle.css'
-import '../../node_modules/roboto-fontface/fonts/roboto/Roboto-BlackItalic.woff'
-import '../../node_modules/roboto-fontface/fonts/roboto/Roboto-BlackItalic.woff2'
+import "@fontsource/roboto/500.css" // Weight 500.
 
 const Body=(props)=>{
     return( 
         <>
-    <div className="fontbody"></div> 
+    <div className="fontbody"> 
     {props.children}
+    </div>
     </>
     )
 }
