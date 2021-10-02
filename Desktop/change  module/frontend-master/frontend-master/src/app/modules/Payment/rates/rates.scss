@@ -1,0 +1,49 @@
+.rates {
+  .btn {
+    @media (max-width: 1442px) {
+      padding: 0 0 !important;
+    }
+  }
+
+  .card-body {
+    @media (max-width: 540px) {
+      background: #f3f6f9;
+    }
+  }
+  .ratesFormNav {
+    button {
+      @media (max-width: 540px) {
+        display: none;
+      }
+    }
+  }
+  .select {
+    display: none;
+    @media (max-width: 540px) {
+      display: block !important;
+    }
+  }
+  .tableMobile {
+    @media (max-width: 540px) {
+      display: block !important;
+      background: white !important;
+    }
+  }
+  .tableDesktop {
+    @media (max-width: 540px) {
+      display: none;
+    }
+  }
+
+  .ratesFormNav {
+    &:focus {
+      background: lightblue;
+    }
+  }
+  .tableMobile {
+    display: none;
+  }
+  .Rates {
+    background: #ffff;
+  }
+}

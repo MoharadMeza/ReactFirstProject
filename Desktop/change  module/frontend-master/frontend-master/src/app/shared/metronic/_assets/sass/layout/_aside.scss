@@ -1,0 +1,33 @@
+.aside-admin {
+  background-color: white;
+  height: calc(100% - 65px);
+  position: fixed;
+  z-index: 95;
+  width: 270px;
+  top: 55px;
+  right: 0;
+
+  @media (max-width: 991px) {
+    z-index: 1001;
+  }
+
+  .brand {
+    background-color: #0071a9 !important;
+    z-index: 100;
+  }
+
+  .aside-menu {
+    background-color: white;
+
+    .menu-nav .menu-item .menu-link {
+      &:active {
+        background-color: #0071a9;
+      }
+    }
+  }
+}
+.aside-fixed.aside-minimize.aside-minimize-hover {
+  .aside {
+    width: 270px;
+  }
+}

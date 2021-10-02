@@ -1,0 +1,28 @@
+@include media-breakpoint-up(lg) {
+  .header {
+    background-color: #0071a9;
+
+    &.header-fixed {
+      height: get($header-config, desktop, fixed, height);
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: get($header-config, desktop, fixed, zindex);
+    }
+
+    .header-fixed.aside-minimize & {
+      left: 0;
+    }
+
+    .aside-enabled & {
+      &.header-fixed {
+        left: 0;
+      }
+
+      &.header-admin {
+        left: 70px;
+      }
+    }
+  }
+}

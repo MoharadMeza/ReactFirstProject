@@ -1,0 +1,34 @@
+@include media-breakpoint-up(lg) {
+  .header {
+    background-color: #0071a9;
+
+    .header-menu {
+      .menu-nav {
+        > .menu-item {
+          > .menu-link {
+            @include border-radius(4px);
+
+            .menu-text {
+              text-decoration: none;
+              color: white;
+              font-weight: 500;
+            }
+            &:hover {
+              background-color: white;
+            }
+          }
+          &.menu-item-here,
+          &.menu-item-active {
+            > .menu-link {
+              background-color: white;
+
+              .menu-text {
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@include media-breakpoint-down(md) {
+  .content {
+    .subheader-enabled:not(.subheader-mobile-fixed) & {
+      padding-top: 30px;
+    }
+  }
+}

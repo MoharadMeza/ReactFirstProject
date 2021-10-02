@@ -1,0 +1,28 @@
+.rates-table {
+  .theadRatesTable {
+    background: #f3f6f9;
+    color: rgb(182, 179, 179);
+  }
+  .tbodyRatesTable {
+    font-weight: normal;
+    font-size: 17px;
+  }
+  td {
+    border-top: 0 !important;
+  }
+
+  table {
+    color: black !important;
+  }
+}
+.rates-table-desktop {
+  padding-left: 0 !important;
+}
+.rates-table-mobile {
+  .tdLable {
+    @media (max-width: 540px) {
+      border-right: 1px solid lightgray !important;
+      color: rgb(179, 177, 177) !important;
+    }
+  }
+}

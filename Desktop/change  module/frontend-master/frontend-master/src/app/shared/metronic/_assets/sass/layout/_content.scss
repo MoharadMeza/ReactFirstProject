@@ -1,0 +1,10 @@
+@include media-breakpoint-up(lg) {
+  .content {
+    padding: 0;
+  }
+  .content-user {
+    padding : {
+      right: 450px;
+    }
+  }
+}

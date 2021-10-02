@@ -1,0 +1,11 @@
+.aside-right {
+  @media only screen and (max-width: 990px) {
+    display: none;
+  }
+  @media only screen and (min-width: 995px) {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    width: 400px;
+  }
+}

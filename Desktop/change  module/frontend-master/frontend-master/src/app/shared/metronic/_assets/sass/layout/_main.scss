@@ -1,0 +1,11 @@
+@include media-breakpoint-up(lg) {
+  // Wrapper
+  .wrapper {
+    .aside-fixed & {
+      padding-left: 70px;
+    }
+    .aside-fixed.aside-minimize:not(.aside-minimize-hover) & {
+      padding-left: 70px;
+    }
+  }
+}
